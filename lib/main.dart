@@ -29,11 +29,8 @@ class _MyPageState extends State<MyPage> {
         ),
       ),
       body: Center(
-        child: Text(
-          'Hello',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-          ),
+        child: Column(
+          children: [FlatButton(onPressed: () {}, child: Text('Button'))],
         ),
       ),
     );
